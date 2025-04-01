@@ -28,13 +28,13 @@ Verwendung
 2. Suchbegriff angeben:
 Führe das Skript mit einem Suchbegriff als Argument aus. Zum Beispiel:
 
-python google_search.py "chatgpt"
+python3 google_search.py "TBZ"
 Das Skript erstellt dann die Google-Such-URL und öffnet sie im Standard-Webbrowser.
 
 3. URL im Browser öffnen:
 Sobald der Befehl ausgeführt wird, öffnet das Skript die Google-Suche für den angegebenen Begriff im Webbrowser. Die URL sieht z.B. so aus:
 
-https://www.google.com/search?q=chatgpt&oq=chatgpt
+https://www.google.com/search?q=tbz&oq=tbz
 
 Code-Erklärung
 Importierte Bibliotheken
@@ -56,7 +56,7 @@ URL-Erstellung: Die Google-Such-URL wird aus dem kodierten Suchbegriff zusammeng
 
 Beispiel:
 
-open_google_search("chatgpt")
+open_google_search("tbz")
 main()
 Diese Funktion ist der Einstiegspunkt des Programms. Sie verarbeitet das Kommandozeilenargument, ruft die Funktion open_google_search mit dem übergebenen Suchbegriff auf und öffnet die URL im Browser.
 
